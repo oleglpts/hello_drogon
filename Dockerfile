@@ -1,4 +1,4 @@
-FROM alpine_drogon:3.23.0-1.9.11-1.5.24 AS build
+FROM alpine_drogon:3.23.0-1.9.11-1.5.24-1 AS build
 WORKDIR /build
 COPY CMakeLists.txt .
 COPY main.cc .
